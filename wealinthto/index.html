@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wealinthto</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-black">
+    <div
+      id="main"
+      class="w-screen h-screen flex items-center justify-center text-center overflow-x-scroll bg-black text-white italic"
+    >
+      <div>
+        <h1
+          class="hover:font-bold hover:text-xl hover:text-purple-300"
+          id="title"
+        >
+          wealinthto
+        </h1>
+        <!-- <div id="input" class="bg-slate-900 p-5 mt-3">
+          <strong>hola</strong>
+        </div> -->
+        <!-- <hr />
+        <em">message</em><br /> -->
+        <input
+          class="bg-slate-900 outline-none p-5 mt-7 hover:border-t-4 hover:border-slate-500 focus:border-cyan-700"
+          placeholder="username"
+          maxlength="20"
+          id="us"
+        /><br />
+        <input
+          type="text"
+          class="bg-slate-900 outline-none p-5 mt-4 hover:border-b-4 hover:border-slate-500 focus:border-cyan-700"
+          placeholder="text"
+          maxlength="2000"
+          id="val"
+        /><br /><br /><em>avatar (must be less than 25 mb)</em><br />
+        <input type="file" id="chi" disabled /><br />
+        <button
+          class="mt-7 p-5 w-24 bg-gray-900 rounded-sm hover:rounded-lg hover:border-t-4 hover:border-cyan-700 hover:italic"
+          id="submit"
+        >
+          submit</button
+        ><br /><br />
+        <img id="img" width="200" />
+        <div id="changelog" class="mt-7 text-left">
+          <em
+            class="font-extralight hover:font-bold hover:text-xl hover:text-red-400 text-center"
+            >changelog</em
+          ><br /><br />
+          <ul class="list-disc">
+            <strong>1.2 &lt;wip&gt;</strong>
+            <li>disallowed mentions</li>
+            <li><strong>UNFINISHED</strong> added avatar image support</li>
+            <strong>1.1</strong>
+            <li>added username support</li>
+            <strong>to-do</strong>
+            <li>avatar image uploading</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="loadenv.js" type="module"></script>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>

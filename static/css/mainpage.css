@@ -1,0 +1,42 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background: url("../img/bg/notes.png");
+  font-family: sans-serif;
+  color: white;
+}
+
+div#evil {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+div#evil iframe {
+  width: 100%;
+}
+
+div#sidebar {
+  width: 10%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 1em;
+  background: url("../img/bg/fabric.jpeg");
+}
+
+div#sidebar ul a {
+  color: white;
+}
+
+.sub {
+  color: #cdcdcd;
+  font-style: italic;
+}
+
+.hide {
+  display: none;
+}

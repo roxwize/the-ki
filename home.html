@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOME | thekillective</title>
+    <link rel="stylesheet" href="./static/css/home.css" />
+  </head>
+  <body>
+    <div id="silelyimage">
+      <img src="./static/img/ir.jpg" />
+    </div>
+    <div id="left">
+      <div id="sidebar" onclick="ccg()">></div>
+      <h1><em>THEKILLECTIVE</em></h1>
+      <p>
+        Hi. I'm theki. This is the most unique page design you will see on this
+        website. I have a large disregard of mobile users due to my inexperience
+        in CSS, so in an effort to fix the labyrinth that is my website I will
+        try to keep pages as simple as possible.
+      </p>
+    </div>
+    <div id="right" class="hide"></div>
+    <script>
+      function ccg() {
+        const me = document.getElementById("sidebar");
+        document.getElementById("right").classList.toggle("hide");
+        if (me.innerHTML === "&gt;") me.innerHTML = "&lt;";
+        else me.innerHTML = "&gt;";
+      }
+    </script>
+  </body>
+</html>

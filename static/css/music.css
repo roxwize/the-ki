@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: black;
+  background: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#sidebar {
+  position: absolute;
+  bottom: 0;
+  background-color: black;
+  height: 15vh;
+  width: 100vw;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+  color: white;
+}
+
+#main {
+  z-index: -1;
+  height: 80vh;
+  overflow: scroll;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr;
+  grid-template-rows: 2fr 2fr;
+  gap: 1em 1em;
+  grid-template-areas:
+    ". . . . ."
+    ". . . . .";
+}
+
+.album {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  line-height: 20pt;
+}
+
+.album img {
+  width: 300px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.album:hover {
+  font-weight: bold;
+  border: 1px solid grey;
+  user-select: none;
+}
+
+/* #sidebar h1 { */
+/* position: absolute; */
+/* transform: translateX(180%); TROL */
+/* bottom: 25%; */
+/* } */
+
+/* .custom-shape-divider-top-1646443152 { */
+/* position: absolute; */
+/* top: 0; */
+/* left: 0; */
+/* width: 100%; */
+/* overflow: hidden; */
+/* line-height: 0; */
+/* transform: rotate(180deg); */
+/* } */
+
+/* .custom-shape-divider-top-1646443152 svg { */
+/* position: relative; */
+/* display: block; */
+/* width: calc(100% + 1.3px); */
+/* height: 98px; */
+/* } */
+
+/* .custom-shape-divider-top-1646443152 .shape-fill { */
+/* fill: #ffffff; */
+/* } */

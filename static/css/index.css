@@ -1,0 +1,36 @@
+body {
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-family: "Arimo", sans-serif;
+  font-size: 30pt;
+}
+
+h1 > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+  color: inherit;
+}

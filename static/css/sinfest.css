@@ -1,0 +1,32 @@
+/* CSS Document */
+
+* {
+	box-sizing: border-box;
+}
+
+#poster {
+	width: 50vw;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+
+.title {
+	font-family: lores-9-plus-narrow,sans-serif;
+	font-weight: 900;
+	font-style: normal;
+	font-size: 30pt;
+}
+
+.paragraph {
+	font-family: tussilago,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 30pt;
+	margin-left: 1vw;
+}
+
+#content {
+	background-color: black;
+	width: 100vw;
+}

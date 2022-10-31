@@ -1,0 +1,10 @@
+/* Optimized stuff */
+
+.shadow {
+  height: 1em;
+  filter: Shadow(Color=#666666, Direction=180, Strength=3);
+}
+
+.iframe-center {
+	height: 100%;
+}

@@ -1,0 +1,30 @@
+<story>
+	<node speaker="Theki" id="1">
+		<content>Hello ..  .  it is me</content>
+		<choice to="1">Hola</choice>
+	</node>
+	<node speaker="Theki" id="2">
+		<content>Do you like my website</content>
+		<choice to="4">Yes</choice><choice to="3">No</choice>
+	</node>
+	<node speaker="Theki" id="3">
+		<content>Fuck you! You die now.</content>
+		<choice to="1">AaaAa ! ! !</choice>
+	</node>
+	<node speaker="Theki" id="4">
+		<content>Thank you</content>
+		<choice to="5">Yes</choice>
+	</node>
+	<node speaker="Theki" id="5">
+		<content>What is your favourite pet</content>
+		<choice to="6">Cat</choice><choice to="3">Dog</choice>
+	</node>
+	<node speaker="Theki" id="6">
+		<content>Color or colour ?</content>
+		<choice to="7">Color</choice><choice to="3">Colour</choice>
+	</node>
+	<node speaker="Theki" id="7">
+		<content>You have passed the test ! Congratulation</content>
+		<choice to="7">Thank you</choice><choice to="1">Start over</choice>
+	</node>
+</story>
